@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": ".",
-      "program": "build/Debug/outDebug",
+      "cwd": "c:/Users/ALLAH/Desktop/Programming and SoftwareDeveloping/Ardinou/C++/Revesion_To_C++/LinkedLIst/Lab One",
+      "program": "c:/Users/ALLAH/Desktop/Programming and SoftwareDeveloping/Ardinou/C++/Revesion_To_C++/LinkedLIst/Lab One/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
