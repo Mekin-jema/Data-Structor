@@ -10,9 +10,15 @@
 
  IsSubTreeLessor(Node *root, int value){
   if(root==nullptr) return true;
-  if (root->data<value && IsSubTreeLessor(root->left,value)&& IsSubTreeLessor(root->right,value))
+  if (root->data<value && 
+  IsSubTreeLessor(root->left,value)&&
+   IsSubTreeLessor(root->right,value))
  }
-  IsSubTreeGreator(Node *root, int value);
+ IsSubTreeLessor(Node *root, int value){
+  if(root==nullptr) return true;
+  if (root->data<value && 
+  IsSubTreeLessor(root->left,value)&&
+   IsSubTreeLessor(root->right,value))
 
 
 
@@ -25,6 +31,8 @@ bool IsBinarySearchTree(Node * root){
         return true
       }
 }
+
+
 
 
 
