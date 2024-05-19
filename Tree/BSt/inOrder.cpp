@@ -34,7 +34,16 @@ void levleOrder(BstNode *root){
 
 
 }
-void PreOrder(){
+// Preorder
+void PreOrder( BstNode *root){
+    if (root==nullptr)return;
+    cout<<root->data<<" ";
+    PreOrder(root->left);
+    PreOrder(root->right);
+
+
+
+
     
 }
 void PreOrder(){
